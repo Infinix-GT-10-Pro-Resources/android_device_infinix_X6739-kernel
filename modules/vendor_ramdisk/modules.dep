@@ -170,7 +170,7 @@
 /lib/modules/dbgtop-drm.ko:
 /lib/modules/tran_otg.ko: /lib/modules/charger_class.ko /lib/modules/adapter_class.ko
 /lib/modules/tcpci_late_sync.ko: /lib/modules/tcpc_class.ko /lib/modules/tran_otg.ko /lib/modules/mtk_charger_framework.ko /lib/modules/tran_chg.ko /lib/modules/mtk_charger_algorithm_class.ko /lib/modules/charger_class.ko /lib/modules/tran_common_class.ko /lib/modules/thermal_interface.ko /lib/modules/mtk_gpufreq_wrapper.ko /lib/modules/mtk_gpu_hal.ko /lib/modules/mtk_battery_oc_throttling.ko /lib/modules/mtk_bp_thl.ko /lib/modules/mtk_pbm.ko /lib/modules/mtk_mdpm.ko /lib/modules/mtk_dynamic_loading_throttling.ko /lib/modules/mtk_low_battery_throttling.ko /lib/modules/pmic_lbat_service.ko /lib/modules/gpueb.ko /lib/modules/mtk_tinysys_ipi.ko /lib/modules/mtk_rpmsg_mbox.ko /lib/modules/mtk-mbox.ko /lib/modules/mtk-ssc.ko /lib/modules/tinysys-scmi.ko /lib/modules/adapter_class.ko /lib/modules/transsion_tranlog.ko /lib/modules/pd_dbg_info.ko /lib/modules/aee_aed.ko /lib/modules/mrdump.ko /lib/modules/log_store.ko
-/lib/modules/mcDrvModule.ko:
+/lib/modules/mcDrvModule.ko: /lib/modules/tnek.ko /lib/modules/transsion_tranlog.ko
 /lib/modules/mtk-mmdvfs.ko: /lib/modules/mmprofile.ko /lib/modules/mtk-smi-dbg.ko /lib/modules/mtk-smi.ko /lib/modules/emi.ko /lib/modules/emi-mpu.ko /lib/modules/aee_aed.ko /lib/modules/mrdump.ko /lib/modules/log_store.ko
 /lib/modules/mtk-mml.ko: /lib/modules/system_heap.ko /lib/modules/mtk_sync.ko /lib/modules/mtk_slbc.ko /lib/modules/mtk-icc-core.ko /lib/modules/mtk-cmdq-drv-ext.ko /lib/modules/vcp_status.ko /lib/modules/mmprofile.ko /lib/modules/irq-dbg.ko /lib/modules/mtk-smi-dbg.ko /lib/modules/mtk-smi.ko /lib/modules/emi.ko /lib/modules/emi-mpu.ko /lib/modules/iommu_debug.ko /lib/modules/device-apc-common.ko /lib/modules/aee_aed.ko /lib/modules/mrdump.ko /lib/modules/log_store.ko
 /lib/modules/arm_dsu_pmu.ko:
@@ -196,7 +196,7 @@
 /lib/modules/aw862xx_haptic.ko:
 /lib/modules/mediatek-cpufreq-hw.ko:
 /lib/modules/mt635x-auxadc.ko:
-/lib/modules/tran_fp.ko: /lib/modules/spi-mt65xx.ko /lib/modules/mcDrvModule.ko /lib/modules/mtk_disp_notify.ko
+/lib/modules/tran_fp.ko: /lib/modules/spi-mt65xx.ko /lib/modules/mcDrvModule.ko /lib/modules/tnek.ko /lib/modules/mtk_disp_notify.ko /lib/modules/transsion_tranlog.ko
 /lib/modules/load_track.ko:
 /lib/modules/zram.ko: /lib/modules/zsmalloc.ko /lib/modules/tran_rhi.ko /lib/modules/transsion_tranlog.ko
 /lib/modules/cmdq_helper_inf.ko: /lib/modules/mtk-cmdq-drv-ext.ko /lib/modules/vcp_status.ko /lib/modules/mmprofile.ko /lib/modules/irq-dbg.ko /lib/modules/mtk-smi-dbg.ko /lib/modules/mtk-smi.ko /lib/modules/emi.ko /lib/modules/emi-mpu.ko /lib/modules/iommu_debug.ko /lib/modules/device-apc-common.ko /lib/modules/aee_aed.ko /lib/modules/mrdump.ko /lib/modules/log_store.ko
